@@ -1,0 +1,166 @@
+/* ^ Importing Google Forms */
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Onest", sans-serif;
+}
+body::selection {
+  background-color: yellow;
+}
+/* ^ Navbar- logo */
+nav {
+  width: 100%;
+  height: 80px;
+}
+nav h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #ef233c;
+}
+/* ^ Navlinks */
+.nav-links {
+  width: 100%;
+  background-color: #2b2d42;
+  height: 46px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.nav-links ul li {
+  display: inline-block;
+  padding: 0.8rem;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  margin: 0 1rem;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.nav-links ul li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+/* ^ Main Wrapper */
+/* ^ Content Wrapper */
+.content-wrapper {
+  width: 58rem;
+  max-width: 100%;
+  margin: 2rem auto;
+  padding: 0 1.2rem;
+}
+/* ^ blog post */
+article.blog-post {
+  width: 69%;
+  float: left;
+}
+.post-headings {
+  border-bottom: 1px solid #8d99ae;
+  font-family: "Merriweather", serif;
+  position: relative;
+  padding: 1.5rem;
+}
+.post-headings h1 {
+  font-size: 2.5rem;
+  color: #2b2d42;
+}
+.post-headings p {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: hsl(0, 0%, 50%);
+}
+.label {
+  background-color: #ef233c;
+  color: #ffffff;
+  padding: 0.2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: "Onest", sans-serif;
+  font-weight: bold;
+  border-radius: 2px;
+}
+/* ^ Blog Image */
+.blog-img {
+  width: 300px;
+  height: 250px;
+  margin: 1rem 0 1rem 1rem;
+}
+#first-img {
+  float: right;
+}
+#second-img {
+  float: left;
+  margin-right: 1rem;
+}
+/* ^ Blog Content */
+.blog-post > h3 {
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+}
+.blog-post > p {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  color: #2b2d42;
+  letter-spacing: 1px;
+  word-spacing: 0.5rem;
+  margin-bottom: 2rem;
+}
+.blog-post > p::first-letter {
+  color: #ef233c;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/* ^ Sidebar */
+.sidebar {
+  width: 29%;
+  height: auto;
+  float: right;
+  padding: 1.3rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.sidebar h3 {
+  border-bottom: 1px solid #ef233c;
+  padding: 0.5rem;
+  color: #ef233c;
+  margin-bottom: 1rem;
+}
+.sidebar a {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  color: #2b2d42;
+}
+.sidebar a:hover {
+  font-weight: bold;
+}
+.sidebar img {
+  width: 200px;
+  height: 160px;
+}
+/* ^ footer */
+footer {
+  clear: both;
+  padding: 1.2rem;
+  width: 100%;
+  background-color: #2b2d42;
+  text-align: center;
+  color: #ffffff;
+}
+footer a {
+  color: yellow;
+  text-decoration: none;
+}
+footer a::selection {
+  color: blue;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shiftbyte</title>
+    <!-- * Linking CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- * Navbar- logo -->
+    <nav>
+      <h1>Shiftbyte</h1>
+    </nav>
+    <!-- * Navlinks -->
+    <div class="nav-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Archives</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <!-- * Main Wrapper -->
+    <!-- * Content Wrapper - to centralise the content -->
+    <div class="content-wrapper">
+      <!-- * Blog Post -->
+      <article class="blog-post">
+        <div class="post-headings">
+          <h1>RSC: The Performance Edge</h1>
+          <p>By Alex Developer</p>
+          <span class="label">Trending</span>
+        </div>
+        <!-- * Blog Image -->
+        <img src="./images/src.jpg" alt="" class="blog-img" id="first-img" />
+        <!-- * Blog Content -->
+        <p>
+          The web development landscape in late 2025 is defined by an arms race
+          for performance. As user expectations for instant loading and app-like
+          experiences rise, developers are turning away from the purely
+          client-side rendering model. The most significant trend driving this
+          change is the maturation and adoption of React Server Components
+          (RSC). RSC is not just a feature; it's a foundational shift in how we
+          structure modern web applications, blurring the line between front-end
+          and back-end development to deliver speed and efficiency previously
+          unattainable with traditional Single Page Applications (SPAs).
+        </p>
+        <h3>The Client-Side Problem</h3>
+        <img
+          src="./images/Article-img.png"
+          alt=""
+          class="blog-img"
+          id="second-img"
+        />
+        <p>
+          For years, the standard approach was the SPA model: a single, large
+          JavaScript bundle sent to the user’s browser. This created three major
+          bottlenecks: Fat JS Bundles: Shipping massive amounts of unused
+          JavaScript, resulting in poor Time to Interactive (TTI). The Waterfall
+          Effect: The client must download JS, execute it, then fetch data—a
+          slow, sequential waterfall of network requests. Client-Side
+          Complexity: Placing all data fetching and state logic in the browser
+          overcomplicates front-end code. RSC offers a direct solution by moving
+          critical rendering and data fetching logic back to the server or the
+          "Edge."
+        </p>
+      </article>
+      <aside class="sidebar">
+        <h3>Related Reading</h3>
+        <a href="#">Astro's Architecture: The Death of the SPA Monolith?</a>
+        <a href="#">Wasm in the Browser: JavaScript's Performance Co-Pilot</a>
+        <a href="#">Micro-Frontends: Scalability at the Cost of Complexity.</a>
+
+        <h3>Editor Pics</h3>
+        <img src="./images/aside-img.png" alt="" />
+        <a href="#">The Rise of Signals: State Management Beyond Hooks.</a>
+      </aside>
+    </div>
+    <footer>
+      <p>A CSS Practice Task. © 2025</p>
+      <a href="">All Right Reserved</a>
+    </footer>
+  </body>
+</html>
